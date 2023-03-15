@@ -1,0 +1,14 @@
+server:
+  port: 8001
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/child-love?serverTimezone=UTC&useSSL=false
+    username: root
+    password: 333
+  servlet:
+    multipart:
+      max-request-size: 500MB
+      max-file-size: 500MB
+zzy:
+  local: http://localhost:8001/static/
+  filePath: D://static/
